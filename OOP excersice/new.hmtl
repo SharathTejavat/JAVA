@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff6600;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <!-- Add the image tag below -->
+    <img src="new.jpg" alt="Happy New Year Image" style="width: 100%; max-width: 600px; margin-bottom: 20px;">
+
+    <h1>Happy New Year!</h1>
+    
+    <button onclick="openBrowser()">Click to open in browser</button>
+
+    <script>
+        function openBrowser() {
+            window.location.href = 'https://www.example.com'; // Replace with the URL you want to open
+        }
+    </script>
+</body>
+</html>
+
